@@ -2,7 +2,7 @@
 import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
-const page = () => {
+const MyComponent = () => {
     const router = useRouter()
     const [allData, setAllData] = useState([])
 
@@ -49,4 +49,4 @@ const page = () => {
   )
 }
 
-export default page
+export default MyComponent

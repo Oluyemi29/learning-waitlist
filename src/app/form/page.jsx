@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { FaCamera } from "react-icons/fa";
 
-const page = ()=>{
+const MyComponent = ()=>{
     const router = useRouter()
     const cloudPresetName = 'waitlist-start'
     const cloudName = 'devoluyemi'
@@ -163,4 +163,4 @@ const page = ()=>{
     )
 }
 
-export default page 
+export default MyComponent 
