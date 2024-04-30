@@ -3,7 +3,7 @@ import React from 'react'
 
 const connectDB = async ()=>{
     try {
-        const connect = await mongoose.connect('mongodb+srv://adedokunoluyemi1:Oluyemi29@cluster0.8mlzqy6.mongodb.net/anotherwaitlist')
+        const connect = await mongoose.connect(process.env.MONGODB)
         const connection = connect.connection.host
         console.log(connection);
     } catch (error) {
